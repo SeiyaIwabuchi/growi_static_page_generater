@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Growi Pages</title>
+</head>
+<body>
+    <ol style="list-style-type: none;">
+        {% for page in pages%}
+        <li><a href="{{ page['_id'] }}"><h1>{{ page['path'] }}</h1></a></li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

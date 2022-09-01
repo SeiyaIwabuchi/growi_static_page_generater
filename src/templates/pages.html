@@ -7,7 +7,7 @@
 <body>
     <ol style="list-style-type: none;">
         {% for page in pages%}
-        <li><a href="{{ page['_id'] }}"><h1>{{ page['path'] }}</h1></a></li>
+        <li><a href="{{ '/v3/page/' + page['_id'] }}"><h1>{{ page['path'] }}</h1></a></li>
         {% endfor %}
     </ol>
 </body>

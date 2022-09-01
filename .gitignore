@@ -4,3 +4,4 @@
 .idea/modules.xml
 .idea/inspectionProfiles/profiles_settings.xml
 src/config.py
+**/__pycache__
